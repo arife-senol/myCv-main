@@ -1,0 +1,17 @@
+.hero_description{
+    line-height: 28px;
+    font-weight: 400;
+
+}
+
+.hero_image_card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: center;
+
+    .hero_image{
+        box-shadow: 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+        box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12);
+        }
+}
