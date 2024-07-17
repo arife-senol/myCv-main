@@ -25,7 +25,7 @@ export default function ProjectItem({ data }) {
     },
     {
       github: "https://github.com/arife-senol/sprint-8-Netflix-Mockup",
-      view: "https://my-netflix-mockup-k4qdd175m-arife-senol-avcis-projects.vercel.app/",
+      view: "https://arifes-movie-project.vercel.app/",
     },
     {
       github: "https://github.com/arife-senol/React-Projesi",
@@ -33,7 +33,7 @@ export default function ProjectItem({ data }) {
     },
     {
       github: "https://github.com/arife-senol?tab=repositories",
-      view: "https://movie-series-three.vercel.app/",
+      view: "/",
     },
   ];
 
