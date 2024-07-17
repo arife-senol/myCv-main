@@ -21,7 +21,7 @@ export default function ProjectItem({ data }) {
   const links = [
     {
       github: "https://github.com/arife-senol/fsweb-s7-challenge-pizza",
-      view: "/",
+      view: "https://arifes-pizza-project.vercel.app/",
     },
     {
       github: "https://github.com/arife-senol/sprint-8-Netflix-Mockup",
