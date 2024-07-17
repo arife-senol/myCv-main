@@ -6,7 +6,7 @@
         {
           "name": "Arife Şenol Avcı",
           "presentation": "Software Developer",
-          "introduction": "Hey there! I'm Arife, a comprehensive developer passionate about creating excellent user experiences. With extensive experience in both front-end and back-end development, I always aim to design my projects in a strong, scalable, and innovative manner. As an effective communicator within a team, I'm here to make our projects successful together.",
+          "introduction": "Hey there! I'm Arife.",
           "image": "/389089.jpg"
         }
       ],
@@ -28,8 +28,8 @@
         "aboutMe": {
           "title": "About Me",
           "oneTitle": "Profile",
-          "first": "Hello! I'm Arife Şenol Avcı, passionate about staying updated on the latest trends and technologies in the ever-evolving field of frontend development. My commitment to excellence, teamwork, and continuous improvement makes me excited about contributing to your projects.",
-          "second": "I am currently seeking new opportunities to apply my skills and bring value to a dynamic team. Please feel free to reach out if you have any questions or if you're interested in discussing potential collaborations. I'm looking forward to hearing from you!"
+          "first": "Hello! I'm Arife",
+          "second": "I am Arife"
         },
         "content": [
           {
@@ -120,7 +120,7 @@
         {
           "name": "Arife Şenol Avcı",
           "presentation": "Yazılım Geliştirici",
-          "introduction": "Merhaba! Ben Arife, mükemmel kullanıcı deneyimleri yaratmaya tutkulu kapsamlı bir geliştiriciyim. Hem ön yüz hem de arka yüz geliştirme konusunda geniş deneyime sahip olarak projelerimi her zaman güçlü, ölçeklenebilir ve yenilikçi bir şekilde tasarlayarak, projelerimizi birlikte başarılı kılmak için buradayım.",
+          "introduction": "Merhaba! Ben Arife,",
           "image": "389089.jpg"
         }
       ],
@@ -142,8 +142,8 @@
         "aboutMe": {
           "title": "Hakkımda",
           "oneTitle": "Profil",
-          "first": "Merhaba! Ben Arife Şenol Avcı, sürekli gelişen ön uç geliştirme alanındaki en son trendler ve teknolojiler hakkında güncel kalma konusunda tutkuluyum. Mükemmelliğe, takım çalışmasına ve sürekli iyileştirmeye olan bağlılığım, projelerinize katkıda bulunma konusunda beni heyecanlandırıyor.",
-          "second": "Şu anda becerilerimi uygulamak ve dinamik bir ekibe değer katmak için yeni fırsatlar arıyorum. Herhangi bir sorunuz varsa veya potansiyel işbirliklerini tartışmak istiyorsanız lütfen bizimle iletişime geçmekten çekinmeyin. Senden haber bekliyor olacağım!"
+          "first": "Merhaba! Ben Arife Şenol Avcı",
+          "second": "Java"
         },
         "content": [
           {
