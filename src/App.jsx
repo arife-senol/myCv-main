@@ -5,7 +5,8 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Skills from "./components/Skills/Skills";
 import ModeSwitch from "./components/ModeSwitch/ModeSwitch";
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import useAxios from "./hook/useAxios";
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import { useSelector } from "react-redux";
@@ -34,9 +35,11 @@ function App() {
         isDarkMode === "light" ? "bg-white" : "dark bg-[#1e1b20]"
       }`}
     >
+      
       <div className="container mx-auto dark:bg-[#1e1b20]">
         <ModeSwitch data={data} />
         <Header />
+        <ToastContainer/>
         <Hero data={data} />
         <Skills data={data} />
         <div className="w-full h-[1px] bg-gray-300 my-4"></div>

@@ -6,23 +6,26 @@ import { useDispatch } from "react-redux";
 import { theme, languageTr } from "../../store/action";
 import useLocalStorage from "../../hook/useLocalStorage";
 import { FaMoon } from "react-icons/fa6";
+import { toast } from "react-toastify";
 
 export default function ModeSwitch({ data }) {
   const dispatch = useDispatch();
   const [isTheme, setIsTheme] = useLocalStorage("theme", "light");
   const [isLanguage, setIsLanguage] = useLocalStorage("language", "EN");
-
+  const notify = () => toast(`${isTheme === "dark" ? "LIGHT MODE" : "DARK MODE"} Yükleniyor`)
   const themeText = isTheme === "dark" ? "LIGHT MODE" : "DARK MODE";
   const languageText = isLanguage === "EN" ? "TÜRKÇE" : "İNGİLİZCE";
 
   const toggleTheme = () => {
     setIsTheme(isTheme === "light" ? "dark" : "light");
     dispatch(theme());
+    toast(`${isTheme === "dark" ? "LIGHT MODE" : "DARK MODE"} Yükleniyor`)
   };
 
   const handleChangeLanguage = () => {
     setIsLanguage(isLanguage === "EN" ? "TR" : "EN");
     dispatch(languageTr());
+    toast(`${isLanguage === "EN" ? "TÜRKÇE" : "İNGİLİZCE"} Dil Yükleniyor`)
   };
  
 
